@@ -1,31 +1,77 @@
-nav{
-    width:auto;
-    height:auto;
-    padding: 5px 20px 5px 20px;
-    border: 10px solid black;
-    margin: 3px 0 2px 0;
-    background-color: black;
-    color: white;
-}
-td a
-{
-    color: white;
-    display: flex;
+nav {
+  width: auto; /* cette propriété met en place la largeur en automatique */
+  height: auto; /* cette propriété met en place la hauteur en automatique*/
+  padding: 5px 20px 5px 20px; /* cette propriété modifie l'interieur de la balise nav*/
+  border: 10px solid black; /* cette propriété modifie la bordure en noir sur 10px*/
+  margin: 3px 0 2px 0; /* cette propriété modifie la marge de la balise nav*/
+  background-color: black; /* cette propriété modifie l'arrière plan en noir*/
+  color: white; /* ici c'est la couleur noir*/
 }
 
-ul{
-    width:auto;
-    height:auto;
-    padding: 5px 20px 5px 20px;
-    border: 10px solid black;
-    margin: 2px 0 2px 0;
-    background-color: black;
-    color: white;
-    display: flex;
-    gap:5px;
+body{
+  width:auto;
+  height:auto;
+}
+#promo {
+  width: 1832px;
+  height: 310px;
+}
+td a {
+  color: white;
+  display: flex;;
 }
 
-ul a{
-    color: #ffff;
+article{
+  text-align-last:center;
+  font-size:large ;
+}
+
+ul {
+  width: auto;
+  height: auto;
+  padding: 5px 20px 5px 20px;
+  border: 10px solid black;
+  margin: 2px 0 2px 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  gap: 5px;
+  list-style-type:none;
+}
+
+ul a {
+  color: #ffff;
+}
+.box {
+  width: 300px;
+  height: 548px;
+  background-color: rgb(212, 212, 212);
+  position: absolute;
+  top: 530px;
+  left: 1538px;
+}
+
+table {
+  border: solid 2px black;
+  border-collapse: collapse;
+  text-align: center;
+  width: 1200px;
+  height: 200px;
+  justify-content: center;
+}
+td {
+  border: 1px solid black;
+  background-color: aquamarine;
+  margin: auto;
+  padding: 10px 0px 10px 0px;
+} 
+
+thead {
+  color: red;
+  background-color: darkgrey;
+}
+
+main{
+  
 }
 
