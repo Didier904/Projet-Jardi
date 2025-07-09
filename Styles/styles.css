@@ -7,71 +7,75 @@ nav {
   background-color: black; /* cette propriété modifie l'arrière plan en noir*/
   color: white; /* ici c'est la couleur noir*/
 }
-
-body{
-  width:auto;
-  height:auto;
+#Colonne {
+  width: 30%;
+  background-color: rgb(167, 160, 160);
 }
-#promo {
-  width: 1832px;
-  height: 310px;
+main {
+  display: flex;
 }
-td a {
-  color: white;
-  display: flex;;
+article /* içi se trouve la colonne droite*/ {
+  width: 70%;
+  font:xx-large;
 }
 
-article{
-  text-align-last:center;
-  font-size:large ;
+body /* içi c'est la modification du corps de la page*/ {
+  width: auto;
+  height: auto;
+}
+#promo /* içi c'est la modification de l'image de la promotion jarditou*/{
+  width: 100%;
+  height: auto;
 }
 
-ul {
+#logo /* d'autre part, voici la modification du logo jarditou*/{
+  width: 350px;
+  height: "100px";
+}
+
+
+ul  /* içi se trouve la modification des liens*/{
   width: auto;
   height: auto;
   padding: 5px 20px 5px 20px;
   border: 10px solid black;
   margin: 2px 0 2px 0;
   background-color: black;
-  color: white;
   display: flex;
   gap: 5px;
-  list-style-type:none;
+  list-style-type: none;
 }
 
-ul a {
+ul a /* change la couleur de mes liens*/ {
   color: #ffff;
 }
-.box {
-  width: 300px;
-  height: 548px;
-  background-color: rgb(212, 212, 212);
-  position: absolute;
-  top: 530px;
-  left: 1538px;
-}
 
-table {
+table /*içi c'est les changements et modifications de la table, de la "page tableau"*/{
   border: solid 2px black;
   border-collapse: collapse;
   text-align: center;
-  width: 1200px;
-  height: 200px;
+  width: 1450px;
+  height: auto;
   justify-content: center;
+  max-width: 100%;
 }
-td {
+td /*poursuite de mon tableau avec un changement de fond*/ {
   border: 1px solid black;
   background-color: aquamarine;
   margin: auto;
   padding: 10px 0px 10px 0px;
-} 
+}
 
-thead {
+thead /*poursuite et fin du tableau avec une application de couleur rouge à l'entête*/{
   color: red;
   background-color: darkgrey;
 }
 
-main{
-  
+@media screen and (max-width: 575px) /* cette propriété met en place l'adaptabilité de l'ecran sur toutes formes(tablettes, smartphones et pc)*/ {
+  body {
+    font-size: 15px;
+  }
 }
-
+img {
+  max-width: 100%;
+}

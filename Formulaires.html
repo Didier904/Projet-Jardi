@@ -1,44 +1,86 @@
-        <!DOCTYPE html>
-        <html lang="fr">
-          <head>
-            <meta charset="UTF-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <title>Jarditou</title>
-            <link rel="stylesheet" href="Styles/styles.css" />
-          </head>
-          <header>
-            <img
-              src="Jarditou.css/assets/src/img/jarditou_photos/images/jarditou_logo.jpg"
-              alt="logo jarditou"
-              weight="100"
-              height="100"
-            />
-            <article>Tout le Jardin</article>
-            <nav>
-              <ul>
-                <a href="index.html" target="_blank">Accueil</a>
-                <a href="tableau.html" target="_blank">Tableau</a>
-                <a href="Formulaire.html" target="_blank">Formulaire</a>
-              </ul>
-            </nav>
-            <div>
-              <img id="promo"
-                src="Jarditou.css/assets/src/img/jarditou_photos/images/promotion.jpg"
-                alt="promotion jarditou"
-                weight="1800"
-                height="360"
-              />
-            </div>
-  
-           <h1>Contact</h1>
-            <hr>
-            <article>Ces zone sont obligatoires</article>
-            <form action="Destination PHP" method="post">
-                <fieldset>
-                    <legend>Vos coordonnées</legend>
-                <label for="nom"> Votre nom*:</label><input type="text" name="nom" id="nom">
-                <br>
-                <label for="prénom">Votre prénom*:</label><input type="text" name="prénom" id="prénom"><br>
-                <label for="Sexe">Sexe*:</label><input type="radio" name="Sexe" value="Féminin">Féminin
-                <input type="radio" name="Sexe" value="Masculin"> Masculin<br>
-                <label for="Date">Date de naissance:</label><input type="date" name="ddn" id="date">
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jarditou</title>
+    <link rel="stylesheet" href="Styles/styles.css" />
+  </head>
+  <body>
+  <header>
+    <img
+    id="logo"
+      src="Jarditou.css/assets/src/img/jarditou_photos/images/jarditou_logo.jpg"
+      alt="logo jarditou"
+     
+    />
+    <article>Tout le Jardin</article>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="tableau.html">Tableau</a></li>
+       <li><a href="Formulaire.html">Formulaire</a></li> 
+      </ul>
+    </nav>
+    <div>
+      <img
+        id="promo"
+        src="Jarditou.css/assets/src/img/jarditou_photos/images/promotion.jpg"
+        alt="promotion jarditou"
+       
+      />
+    </div>
+
+    <h1>Contact</h1>
+    <hr />
+    <p>*Ces zone sont obligatoires</p>
+    <form action="Destination PHP" method="post">
+      <fieldset>
+        <legend>Vos coordonnées</legend>
+        <label for="nom"> Votre nom*:</label
+        ><input type="text" name="nom" id="nom" />
+        <br />
+        <label for="prénom">Votre prénom*:</label
+        ><input type="text" name="prénom" id="prénom" /><br />
+        <label for="Sexe">Sexe*:</label
+        ><input type="radio" name="Sexe" value="Féminin" />Féminin
+        <input type="radio" name="Sexe" value="Masculin" /> Masculin<br />
+        <label for="Date">Date de naissance:</label
+        ><input type="date" name="ddn" id="date" /><br />
+        <label for="Code Postal">Code Postal*:</label
+        ><input type="text" name="code postal" id="Code Postal" /><br />
+        <label for="Ville">Ville:</label
+        ><input type="text" name="Ville" id="Ville" /><br />
+        <label for="Email">Email*:</label
+        ><input type="text" name="Email" id="Email" /><br />
+      </fieldset>
+      <br />
+      <form action="Destination PHP" method="post">
+        <fieldset>
+          <legend>Vos coordonnées</legend>
+          <label for="text">Sujet*:</label>
+          <select id="couleur">
+            <option value="" selected>Veiller séléctionner un sujet</option>
+            <option value="text">Mes commandes</option>
+            <option value="text">Question sur un point</option>
+            <option value="text">Réclamation</option>
+            <option value="text">Autres</option>
+          </select>
+          <br>
+          <label for="Votre question">Votre question*:</label>
+          <input type="text" name="Votre question" id="Votre question"/><br>
+        </fieldset><br>
+          <input type="checkbox" name="J'accepte le traitement" value="traitement">*J'accepte le traitement informatique de ce formulaire<br>
+          <input type="button" name="Envoyer" value="Envoyer">&nbsp;<input type="button" name="Annuler" value="Annuler">
+      </form>
+          <br>
+          <br>
+    <footer>
+      <ul>
+        <li><a href="Mentions légales.html">Mentions légales</a></li>
+        <li><a href="horaires.html" title="Page tableau">Horaires</a></li>
+        <li><a href="Plan du site.html" title="Page d'accueil">Plan du site</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
